@@ -1,0 +1,22 @@
+name: async_button
+description: >
+  A button builder widget that handles asynchronous operations, providing a loading state 
+    and automatically managing the enabled/disabled state during execution.
+version: 1.0.0
+homepage: https://github.com/BestOwl/async_button
+
+environment:
+  sdk: ^3.5.3
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
