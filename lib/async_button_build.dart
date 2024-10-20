@@ -1,4 +1,4 @@
-library async_button;
+library async_button_build;
 
 import 'package:flutter/widgets.dart';
 
