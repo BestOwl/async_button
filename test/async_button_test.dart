@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:async_button/async_button.dart';
+import 'package:async_button_build/async_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

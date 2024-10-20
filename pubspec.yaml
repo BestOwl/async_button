@@ -1,4 +1,4 @@
-name: async_button
+name: async_button_build
 description: >
   A button builder widget that handles asynchronous operations, providing a loading state 
     and automatically managing the enabled/disabled state during execution.
