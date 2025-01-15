@@ -62,9 +62,11 @@ class _AsyncButtonState extends State<AsyncButton> {
         await widget.onPressedAsync!.call();
       }
     } finally {
-      setState(() {
-        working = false;
-      });
+      if (mounted) {
+        setState(() {
+          working = false;
+        });
+      }
     }
   }
 
